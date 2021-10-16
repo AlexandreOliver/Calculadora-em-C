@@ -13,8 +13,8 @@ int main( void )
     scanf("%d", &numero2);
     
     printf("\n");
-    printf("=≠=≠=≠ Digite: ≠=≠=≠=\n");
-    printf("[1] para Somar\n[2] para Subtrair\n[3] para Multiplicar\n[4] para Dividir\n>> ");
+    printf("=≠=≠=≠=≠=≠= Digite: ≠=≠=≠=≠=≠=≠\n");
+    printf("        [1] para Somar\n        [2] para Subtrair\n        [3] para Multiplicar\n        [4] para Dividir\n>> ");
     scanf("%d", &opcao);
     
     while ( cont == 0 )
@@ -53,7 +53,7 @@ int main( void )
         }
     }
     
-    printf("=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=\n");
+    printf("=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=≠=\n");
     printf("O resultado é: %.2f\n", resultado);
     
     return 0;
