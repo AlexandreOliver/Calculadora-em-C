@@ -17,6 +17,8 @@ int main( void )
     printf("=≠=≠=≠=≠=≠= Digite: ≠=≠=≠=≠=≠=≠\n");
     printf("        [1] para Somar\n        [2] para Subtrair\n        [3] para Multiplicar\n        [4] para Dividir\n>> ");
     scanf("%d", &opcao);
+
+    //printf("%.2f", subtrair(numero1, numero2));
     
     while ( cont == 0 )
     {

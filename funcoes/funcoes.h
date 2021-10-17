@@ -1,1 +1,3 @@
-float soma(float numero1, float numero2);
+float soma(float n1, float n2);
+
+float subtrair(float n1, float n2);
