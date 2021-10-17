@@ -3,23 +3,20 @@
 
 int main( void )
 {
-    int numero1, numero2, opcao;
+    int n1, n2, opcao;
     float resultado, cont;
     printf("\n===== Calculadora simples =====\n");
     
     printf("Digite dois numeros abaixo:\n");
     printf("1°: ");
-    scanf("%d", &numero1);
+    scanf("%d", &n1);
     printf("2°: ");
-    scanf("%d", &numero2);
+    scanf("%d", &n2);
     
     printf("\n");
     printf("=≠=≠=≠=≠=≠= Digite: ≠=≠=≠=≠=≠=≠\n");
     printf("        [1] para Somar\n        [2] para Subtrair\n        [3] para Multiplicar\n        [4] para Dividir\n>> ");
     scanf("%d", &opcao);
-    
-    printf("%.2f", dividir(numero1, numero2));
-
 
     while ( cont == 0 )
     {
@@ -33,25 +30,25 @@ int main( void )
     
     if ( opcao == 1 )
     {
-        resultado = numero1 + numero2;
+        resultado = soma(n1, n2);
     }
     else
     {
         if ( opcao == 2 )
         {
-            resultado = numero1 - numero2;
+            resultado = subtrair(n1, n2);
         }
         else
         {
             if ( opcao == 3 )
             {
-                resultado = numero1 * numero2;
+                resultado = multiplicar(n1, n2);
             }
             else
             {
                 if ( opcao == 4 )
                 {
-                    resultado = numero1 / numero2; 
+                    resultado = dividir(n1, n2); 
                 }
             }
         }
