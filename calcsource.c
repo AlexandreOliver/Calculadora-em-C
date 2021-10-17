@@ -18,6 +18,9 @@ int main( void )
     printf("        [1] para Somar\n        [2] para Subtrair\n        [3] para Multiplicar\n        [4] para Dividir\n>> ");
     scanf("%d", &opcao);
     
+    printf("%.2f", dividir(numero1, numero2));
+
+
     while ( cont == 0 )
     {
         if ( opcao > 4 || opcao == 0 )
