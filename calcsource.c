@@ -1,11 +1,20 @@
 #include<stdio.h>
 #include "funcoes/funcoes.h"
+#include <stdlib.h>
+
+//Limpar Tela
+void clrscr(void)
+{
+    system("@cls||clear");
+}
+
 
 int main( void )
 {
     int n1, n2, opcao;
     float resultado, cont;
-    printf("\n===== Calculadora simples =====\n");
+    clrscr();
+    printf("===== Calculadora simples =====\n");
     
     printf("Digite dois numeros abaixo:\n");
     printf("1°: ");
